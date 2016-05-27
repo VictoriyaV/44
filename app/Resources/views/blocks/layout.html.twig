@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <div id="content">
+        {% include ('blocks/leftcont.html.twig') %}
+        
+        <div id="mainpart">
+            <div id="head">
+                <div id="headimages">
+                    <a href="lions.php#metallist"><img src="{{ asset('img/metallist.jpg') }}" alt="Стадион Металлист"></a>
+                    <a href="lions.php#example"><img src="{{ asset('img/mirrorStream.jpg') }}" alt="Зеркальная струя"></a>
+                    <a href="lions.php#example"><img src="{{ asset('img/parkGorkogo.jpg') }}" alt="Парк Горького"></a>
+                </div>
+                <div id="mainimagesthis">
+                    <img src="{{ asset('img/content/gerb.png') }}" alt="Герб Харькова">
+                    <img src="{{ asset('img/content/flag.png') }}" alt="Флаг Харькова">
+                    <img src="{{ asset('img/content/kharkiv.png') }}" alt="Карта Харькова">
+                </div>
+                <div id="mainannotation">
+                    <p>Харьков — крупнейший город на северо-востоке Украины, первая столица Украины.</p>
+                </div>
+            </div>
+            <div id="maincontent">
+                {% block content %}
+                {% endblock %}
+            </div>
+
+        </div>
+        {% include ('blocks/footer.html.twig') %}
+    </div>
+{% endblock %}

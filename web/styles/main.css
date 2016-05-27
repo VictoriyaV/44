@@ -1,0 +1,243 @@
+body {
+    margin: 0;
+    font-family: Helvetica, Verdana, Arial, sans-serif;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 18px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 16px;
+}
+
+p {
+    padding: 0 10px 0 10px;
+}
+
+img {
+    border: 0;
+}
+
+ table {
+    border-collapse: collapse;
+  }
+
+/* HEADERS */
+
+#content {
+    background: lightsteelblue;
+    width: 75%;
+    margin: auto;
+    border: 0;
+}
+
+#leftcontainer {
+    background: lightgray;
+    width: 250px;
+    float: left;
+    overflow: hidden;
+}
+
+#headlogo {
+    text-align: center;
+    background: lightskyblue;
+    padding: 2em 0;
+}
+
+#headlogo img {
+    height: 74px;
+    width: 220px;
+}
+
+#headimages {
+    text-align: center;
+    background: lightsteelblue;
+    overflow: hidden;
+}
+
+#headimages img {
+    height: 150px;
+    width: 200px;
+}
+
+#leftmenu {
+    background: gray;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+#leftmenu a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 3px 3px;
+}
+
+#leftmenu a:hover {
+    background: #F0F8FF;
+    color: gray;
+    margin-left: -20px;
+    padding-left: 10px;
+}
+
+#leftmenu li {
+    list-style-type: none;
+    margin: 0;
+} 
+
+#current a{
+    background: #F0F8FF;
+    color: gray;
+    margin-left: -20px;
+    padding-left: 10px;
+}
+
+/* Левый блок Авторизация*/
+#auth {
+    text-align:center;
+    padding: 10px;
+    background: lightsteelblue;
+}
+
+#auth a{
+    color: gray;
+    text-decoration: none;
+}
+
+/* Регистрация */
+#register {
+    position:relative;
+    text-align:center;
+    padding: 100px;
+    background: lightsteelblue;
+    margin: 10%;
+    border: 0;
+}
+
+/* Левый блок События*/
+
+#leftdoing {
+    position:relative;
+    height:260px;
+    background: lightsteelblue;
+    color: white;
+    overflow: hidden;
+}
+
+/*#leftdoing {
+    vertical-align: top;
+    background: lightsteelblue;
+    color: white;
+    overflow: hidden;
+}*/
+
+#leftdoing li {
+    margin: 3px;
+}
+
+#leftdoing a {
+    text-decoration: none;
+    color: white;
+}
+
+#leftdoing a:hover {
+    text-decoration: none;
+    color: lightcoral;
+    height: 100%;
+}
+
+#leftdoing #blockHide{
+    position:absolute;
+    bottom:0;
+    overflow: hidden;
+    background:lightskyblue;
+}
+
+/*#blockHide {
+    overflow: hidden;
+    background:lightskyblue;
+}*/
+
+/* /Левый блок События*/
+
+#doingsName {
+    overflow: hidden;
+    background: dodgerblue;
+}
+
+#mainpart {
+    overflow: hidden;
+}
+
+#mainimagesthis {
+    text-align: center;
+    background: lightcyan;
+    overflow: hidden;
+}
+
+#mainimagesthis {
+    height: 140px;
+}
+
+#mainimagesthis:empty {
+    display: none;
+}
+
+#mainannotation {
+    overflow: hidden;
+    text-align: center;
+    background: lightblue;
+}
+
+#maincontent {
+    overflow: hidden;
+    background: #ffffcc;
+}
+
+#maincontent table {
+    margin: auto;
+}
+
+#maincontent td, th {
+    padding-left: 5px;
+    border: 1px solid #fff;
+    background: lightblue;
+}
+
+#maincontent img {
+    padding-left: 10px;
+    height: 150px;
+}
+
+#maincontent li {
+    margin: 3px;
+}
+
+#maincontent a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+#maincontent a:hover {
+    text-decoration: none;
+    color: lightcoral;
+    height: 100%;
+}
+
+
+#foot {
+    overflow: hidden;
+    text-align: center;
+    color: white;
+    background: lightskyblue;
+}
+
+.nowDateTime{
+    float:right;
+    width:20%;
+    padding-top: 15px;
+}

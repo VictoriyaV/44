@@ -1,0 +1,23 @@
+<div id="leftcontainer">
+    <div id="headlogo">
+        <img id="logo" src="{{ asset('img/logo.png') }}" alt="Логотип">
+    </div>
+
+    <div id="leftmenu">
+        <ul>
+            {% render(controller('AppBundle:Default:menu')) %}
+        </ul>
+    </div>
+
+    <div id="auth">
+        
+    </div>
+
+    <div id="leftdoing">
+        <div id="doingsName" onClick="toggle('blockHide');"><h2>События</h2></div>
+        <div id="blockHide">
+            {% include 'blocks/doings_block.html.twig' %}
+        </div>
+    </div>
+
+</div>
