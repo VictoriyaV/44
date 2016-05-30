@@ -1,25 +1,33 @@
 body {
     margin: 0;
     font-family: Helvetica, Verdana, Arial, sans-serif;
-    font-size: 14px;
-}
-
-h1 {
-    text-align: center;
-    font-size: 18px;
-}
-
-h2 {
-    text-align: center;
     font-size: 16px;
 }
 
+h2,h3{
+  text-align: center;
+  vertical-align: top;
+  color: #013220;
+  font-family:Arial;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
 p {
-    padding: 0 10px 0 10px;
+     text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 1px;
+    font-family:Arial;
+    font-size:16px;
 }
 
 img {
     border: 0;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 10px;
+margin-buttom: 10px;
 }
 
  table {
@@ -29,14 +37,14 @@ img {
 /* HEADERS */
 
 #content {
-    background: lightsteelblue;
-    width: 75%;
+    background: #ACE1AF;    
+    width: 85%;
     margin: auto;
     border: 0;
 }
 
 #leftcontainer {
-    background: lightgray;
+    background: #6B8E23;
     width: 250px;
     float: left;
     overflow: hidden;
@@ -44,7 +52,7 @@ img {
 
 #headlogo {
     text-align: center;
-    background: lightskyblue;
+    background: #2E8B57;
     padding: 2em 0;
 }
 
@@ -55,17 +63,17 @@ img {
 
 #headimages {
     text-align: center;
-    background: lightsteelblue;
+    background: #ADDFAD;
     overflow: hidden;
 }
 
 #headimages img {
-    height: 150px;
+    height: 300px;
     width: 200px;
 }
 
 #leftmenu {
-    background: gray;
+    background: #013220;
     margin-left: 20px;
     overflow: hidden;
 }
@@ -78,8 +86,8 @@ img {
 }
 
 #leftmenu a:hover {
-    background: #F0F8FF;
-    color: gray;
+    background: #6B8E23;
+    color:  white;
     margin-left: -20px;
     padding-left: 10px;
 }
@@ -100,7 +108,7 @@ img {
 #auth {
     text-align:center;
     padding: 10px;
-    background: lightsteelblue;
+    background: #ADDFAD;
 }
 
 #auth a{
@@ -113,7 +121,7 @@ img {
     position:relative;
     text-align:center;
     padding: 100px;
-    background: lightsteelblue;
+    background: #ACE1AF;
     margin: 10%;
     border: 0;
 }
@@ -123,14 +131,14 @@ img {
 #leftdoing {
     position:relative;
     height:260px;
-    background: lightsteelblue;
+    background: #ADDFAD;
     color: white;
     overflow: hidden;
 }
 
 /*#leftdoing {
     vertical-align: top;
-    background: lightsteelblue;
+    background: #ACE1AF;
     color: white;
     overflow: hidden;
 }*/
@@ -154,19 +162,19 @@ img {
     position:absolute;
     bottom:0;
     overflow: hidden;
-    background:lightskyblue;
+    background:#ADDFAD;
 }
 
 /*#blockHide {
     overflow: hidden;
-    background:lightskyblue;
+    background:#ADDFAD;
 }*/
 
 /* /Левый блок События*/
 
 #doingsName {
     overflow: hidden;
-    background: dodgerblue;
+    background: #ADDFAD;
 }
 
 #mainpart {
@@ -175,7 +183,7 @@ img {
 
 #mainimagesthis {
     text-align: center;
-    background: lightcyan;
+    background: #013220;
     overflow: hidden;
 }
 
@@ -188,9 +196,10 @@ img {
 }
 
 #mainannotation {
+color: #F2F3F4;
     overflow: hidden;
     text-align: center;
-    background: lightblue;
+    background: #013220;
 }
 
 #maincontent {
@@ -205,12 +214,12 @@ img {
 #maincontent td, th {
     padding-left: 5px;
     border: 1px solid #fff;
-    background: lightblue;
+    background: #ADDFAD;
 }
 
 #maincontent img {
     padding-left: 10px;
-    height: 150px;
+
 }
 
 #maincontent li {
@@ -219,25 +228,42 @@ img {
 
 #maincontent a {
     text-decoration: none;
-    color: dodgerblue;
+    color: #03C03C;
 }
 
 #maincontent a:hover {
     text-decoration: none;
-    color: lightcoral;
+    color: 	#6B8E23;
     height: 100%;
 }
 
 
 #foot {
+ text-align: center;
     overflow: hidden;
     text-align: center;
     color: white;
-    background: lightskyblue;
+    background: #013220;
 }
 
 .nowDateTime{
     float:right;
     width:20%;
     padding-top: 15px;
+}
+.gor{
+    width: 500px;
+    height: 350px;
+}
+ .ver{
+    width: 350px;
+    height: 500px;
+}
+.about{
+    text-align: justify;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 1px;
+    font-family:Arial;
+    font-size:16px;
 }
